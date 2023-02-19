@@ -84,3 +84,14 @@ html {
     color: #fff;
     border-color: #fff;
 }
+
+.img2 {
+
+    height: 100vh;
+    background-image: url(/asset\ 1.jpeg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    /* background-color: rgba(29, 29, 31, 1) */
+    text-align: center;
+    padding-top: 0;
+}
