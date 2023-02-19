@@ -86,12 +86,47 @@ html {
 }
 
 .img2 {
-
-    height: 100vh;
+   height: 80vh;
     background-image: url(/asset\ 1.jpeg);
     background-position: bottom;
     background-repeat: no-repeat;
     /* background-color: rgba(29, 29, 31, 1) */
     text-align: center;
     padding-top: 0;
+}
+.img2 p {
+    color:black;
+    padding-top: .6rem;
+    font-size: .8rem;
+    word-spacing: .1rem;
+}
+
+.img2 {
+    color:black;
+    padding-top: 3rem;
+}
+
+.img2 h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.img2 h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.img2 button {
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.img2 button:hover {
+    color: #333;
+    border-color: black;
 }
