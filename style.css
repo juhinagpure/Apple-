@@ -1,10 +1,17 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
     margin: 0px;
     padding: 0px;
 }
-#nav {
 
-    background-color: #333;
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#nav {
+    background-color: #161617;
     width: 100%;
     margin: auto;
     height: 50px;
@@ -19,10 +26,61 @@
 }
 
 .main a {
-    color: white;
+    color: #fff8;
     text-decoration: none;
+    font-size: .8rem;
+}
+
+.main a:hover {
+    color: #fff
+}
+
+.main a i {
     font-size: 1rem;
 }
-.img1{
-    width: 100%;
+
+.hero {
+    height: 100vh;
+    background-image: url(/asset\ 0.jpeg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: rgba(29, 29, 31, 1);
+    text-align: center;
+}
+
+.hero p {
+    color: #fff;
+    padding-top: .6rem;
+    font-size: .8rem;
+    word-spacing: .1rem;
+}
+
+.hero-description {
+    color: #fff;
+    padding-top: 3rem;
+}
+
+.hero-description h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.hero-description h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.hero-description button {
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    background-color: transparent;
+    color: #fff8;
+    border: 1px solid #fff8;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.hero-description button:hover {
+    color: #fff;
+    border-color: #fff;
 }
