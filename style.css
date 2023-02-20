@@ -132,13 +132,18 @@ html {
     border-color: black;
 }
 
-.img3 img {
-    height: 80vh;
+.center img {
+    /* height: 80vh; */
     /* background-image: url(/asset\ 2.png); */
-    background-position: center;
+    /* background-position: center; */
     background-repeat: no-repeat;
     background-color: rgba(29, 29, 31, 1);
-    margin: auto;
-    padding-top: 0;
-    
+    /* margin: auto; */
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 18px;
+
 }
