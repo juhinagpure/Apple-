@@ -86,7 +86,7 @@ html {
 }
 
 .img2 {
-   height: 80vh;
+    height: 80vh;
     background-image: url(/asset\ 1.jpeg);
     background-position: bottom;
     background-repeat: no-repeat;
@@ -94,15 +94,16 @@ html {
     text-align: center;
     padding-top: 0;
 }
+
 .img2 p {
-    color:black;
+    color: black;
     padding-top: .6rem;
     font-size: .8rem;
     word-spacing: .1rem;
 }
 
 .img2 {
-    color:black;
+    color: black;
     padding-top: 3rem;
 }
 
@@ -131,6 +132,13 @@ html {
     border-color: black;
 }
 
-.img3{
-   
+.img3 img {
+    height: 80vh;
+    /* background-image: url(/asset\ 2.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(29, 29, 31, 1);
+    margin: auto;
+    padding-top: 0;
+    
 }
