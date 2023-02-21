@@ -132,18 +132,50 @@ html {
     border-color: black;
 }
 
-.center img {
-    /* height: 80vh; */
-    /* background-image: url(/asset\ 2.png); */
-    /* background-position: center; */
-    background-repeat: no-repeat;
-    background-color: rgba(29, 29, 31, 1);
-    /* margin: auto; */
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-top: 18px;
+.section3 {
+    background-image: url(/asset\ 3.jpeg);
+    height: 100vh;
+    width: 100%;
+    position: relative;
 
+}
+
+.sec3-des {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    width: 100%;
+}
+
+.btn-container button {
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    margin: .5rem 1rem;
+
+}
+
+.section4 {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1rem;
+}
+
+.grid-item {
+    height: 30rem;
+    background-color: black;
+    
+}
+.grid2{
+    background-color: white;
+}
+.grid6{
+    background-color: white;
 }
