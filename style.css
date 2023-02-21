@@ -170,30 +170,19 @@ html {
 
 .grid-item {
     height: 30rem;
+    width: 100%;
     background-color: black;
-    width: 85%;
-
-}
-
-.grid2 {
-    background-color: white;
-}
-.grid4{
-    width: 85%;
-}
-
-.grid6 {
-    background-color: white;
-}
-
-.grid1 h1 {
     color: #fff;
     text-align: center;
-    bottom: 2rem;
-    margin-top: 2rem;
 }
 
-.grid1 p {
-    color: #fff;
-    text-align: center;
+.link-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.link-container a{
+    margin: .5rem 1rem;
+    color: blue;
 }
