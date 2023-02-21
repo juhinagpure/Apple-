@@ -41,7 +41,7 @@ html {
 
 .hero {
     height: 100vh;
-    background-image: url(/asset\ 0.jpeg);
+    background-image: url(/assets/asset\ 0.jpeg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-color: rgba(29, 29, 31, 1);
@@ -87,7 +87,7 @@ html {
 
 .img2 {
     height: 80vh;
-    background-image: url(/asset\ 1.jpeg);
+    background-image: url(/assets/asset\ 1.jpeg);
     background-position: bottom;
     background-repeat: no-repeat;
     /* background-color: rgba(29, 29, 31, 1) */
@@ -133,7 +133,7 @@ html {
 }
 
 .section3 {
-    background-image: url(/asset\ 3.jpeg);
+    background-image: url(/assets/asset\ 3.jpeg);
     height: 100vh;
     width: 100%;
     position: relative;
@@ -174,15 +174,70 @@ html {
     background-color: black;
     color: #fff;
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.grid-item .description {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 4rem;
+}
+
+.grid-item .description h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 
 .link-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    width: 100%;
+
 }
-.link-container a{
+
+.link-container a {
     margin: .5rem 1rem;
     color: blue;
 }
+
+.grid1 {
+    background-image: url(/assets/asset30.jpg);
+
+}
+
+.grid2 {
+    background-image: url(/assets/grid2.jpg);
+}
+
+.grid3 {
+    background-image: url(/assets/grid3.jpg);
+}
+
+.grid4 {
+    background-image: url(/assets/grid4.jpg);
+}
+
+.grid5 {
+    background-image: url(/assets/asset\ 7.jpeg);
+}
+
+.grid6 {
+    background-image: url(/assets/grid6.jpg);
+}
+
+.grid2,
+.grid6 {
+    color: #000;
+}
+
+
+
+/* Looking sexy */
