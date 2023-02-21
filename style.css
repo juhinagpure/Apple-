@@ -171,11 +171,31 @@ html {
 .grid-item {
     height: 30rem;
     background-color: black;
-    
+
 }
-.grid2{
+
+.grid2 {
     background-color: white;
 }
-.grid6{
+
+.grid6 {
     background-color: white;
+}
+
+.grid1 h1 {
+    color: #fff;
+    text-align: center;
+    bottom: 2rem;
+    margin-top: 2rem;
+
+
+}
+
+.grid1 p {
+    color: #fff;
+    text-align: center;
+}
+
+.grid-item a {
+    text-align: center;
 }
