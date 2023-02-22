@@ -243,6 +243,7 @@ html {
 }
 
 .footer-content {
-    font-size: small;
+    font-size: smaller;
     text-align: center;
+    padding-top: 50px;
 }
