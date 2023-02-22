@@ -237,3 +237,7 @@ html {
 .grid6 {
     color: #000;
 }
+
+.mySlides {
+    display: none;
+}
