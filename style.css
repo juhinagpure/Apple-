@@ -265,3 +265,48 @@ html {
     transform: translateX(0);
     transition: transform 0.5s ease-in-out;
 }
+footer .footerlogo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer img {
+    height: 36px;
+}
+
+footer ul {
+    list-style: none;
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer ul li {
+    padding-top: 5px;
+    text-align: center;
+}
+
+footer ul li a {
+    font-size: 18px;
+    text-align: center;
+}
+
+footer a i {
+    font-size: 24px;
+}
+footer .icons {
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 24px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.after-footer p {
+    display: inline-block;
+}
+
+.after-footer .afterfootermobileversion {
+    display: inline-block;
+}
