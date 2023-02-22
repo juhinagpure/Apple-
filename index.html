@@ -127,19 +127,21 @@
     </section>
     <h2 class="w3-center"></h2>
 
-    <div class="w3-content w3-section" style="max-width: 100%;">
-        <img class="mySlides" src="/assets/asset 8.jpeg" style="width:100%">
-        <img class="mySlides" src="/assets/asset 13.jpeg" style="width:100%">
-        <img class="mySlides" src="/assets/asset 11.jpeg" style="width:100%">
-        <img class="mySlides" src="/assets/asset 17.jpeg" style="width:100%">
-        <img class="mySlides" src="/assets/asset 19.jpeg" style="width:100%">
-        <img class="mySlides" src="/assets/asset 21.jpeg" style="width:100%">
-        <img class="mySlides" src="/assets/asset 23.jpeg" style="width:100%">
-        <img class="mySlides" src="/assets/asset 25.jpeg" style="width:100%">
-        <img class="mySlides" src="/assets/asset 27.jpeg" style="width:100%">
-        <img class="mySlides" src="/assets/asset 15.jpeg" style="width:100%">
+    <section class="section5 carousel">
+        <div class="image-container" id="imgs">
+            <img src="/assets/asset 8.jpeg">
+            <img src="/assets/asset 13.jpeg">
+            <img src="/assets/asset 11.jpeg">
+            <img src="/assets/asset 17.jpeg">
+            <img src="/assets/asset 19.jpeg">
+            <img src="/assets/asset 21.jpeg">
+            <img src="/assets/asset 23.jpeg">
+            <img src="/assets/asset 25.jpeg">
+            <img src="/assets/asset 27.jpeg">
+            <img src="/assets/asset 15.jpeg">
+        </div>
+    </section>
 
-    </div>
     <div class="footer-content">
         <p>*Data plan is required. 5G is available in selected markets and through selected carriers. Speeds vary based
             on site conditions and carrier. For details on 5G support, <br>git contact your carrier and see
@@ -148,21 +150,34 @@
 
     </div>
     <script>
-        var myIndex = 0;
-        carousel();
+        const imgs = document.getElementById("imgs");
+        const img = document.querySelectorAll("#imgs img");
 
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
+        let idx = 0;
+
+        let interval = setInterval(run, 2000);
+
+        function run() {
+            idx++;
+            changeImage();
+        }
+
+        function changeImage() {
+            if (idx > img.length - 1) {
+                idx = 0;
+            } else if (idx < 0) {
+                idx = img.length - 1;
             }
-            myIndex++;
-            if (myIndex > x.length) {
-                myIndex = 1
-            }
-            x[myIndex - 1].style.display = "block";
-            setTimeout(carousel, 2000); // Change image every 2 seconds
+
+            const imgWidth = img[0].clientWidth;
+            imgs.style.width = `${img.length * imgWidth}px`;
+            imgs.style.transform = `translateX(${-idx * imgWidth}px)`;
+        }
+
+
+        function resetInterval() {
+            clearInterval(interval);
+            interval = setInterval(run, 2000);
         }
     </script>
 

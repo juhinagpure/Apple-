@@ -247,3 +247,21 @@ html {
     text-align: center;
     padding-top: 50px;
 }
+
+
+.section5 img {
+    width: 100%;
+    margin: 0 1rem;
+    object-fit: cover;
+}
+
+.section5 .carousel {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.section5 .image-container {
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+}
