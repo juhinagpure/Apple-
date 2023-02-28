@@ -9,10 +9,6 @@ html {
   font-family: 'Poppins', sans-serif;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 header {
   background-color: #161617;
   width: 100%;
@@ -242,7 +238,7 @@ nav a i {
   display: none;
 }
 
-.footer-content {
+.footer-section {
   font-size: x-small;
   text-align: center;
   padding-top: 50px;
@@ -254,13 +250,77 @@ nav a i {
   object-fit: cover;
 }
 
+.section5 {
+  overflow-x: hidden;
+}
+
 .section5 .carousel {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
 }
 
 .section5 .image-container {
   display: flex;
   transform: translateX(0);
   transition: transform 0.5s ease-in-out;
+}
+
+.footer-section {
+  max-width: 60rem;
+  margin: auto;
+  padding-bottom: 2rem;
+  text-align: left;
+  font-size: small;
+  color: #333;
+}
+.footer-section .description {
+  border-bottom: 1px solid #333;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.links-container ul {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.links-container ul li {
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.links-container ul li:first-child {
+  font-weight: bold;
+}
+
+.footer-section .border {
+  border-bottom: 1px solid #333;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-bottom ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer-bottom ul li {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.footer-section span {
+  color: blue;
+  border-bottom: 1px solid blue;
+  cursor: pointer;
 }
