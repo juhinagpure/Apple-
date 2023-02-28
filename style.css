@@ -47,7 +47,7 @@ nav a i {
 }
 
 .hero-section {
-  background-image: url(./assets/section-1.jpeg);
+  background-image: url('./assets/section-1.jpeg');
   background-position: bottom;
   background-repeat: no-repeat;
   text-align: center;
@@ -87,7 +87,7 @@ nav a i {
 
 .section2 {
   height: 80vh;
-  background-image: url(./assets/section-2.jpeg);
+  background-image: url('./assets/section-2.jpeg');
   background-position: bottom;
   background-repeat: no-repeat;
   /* background-color: rgba(29, 29, 31, 1) */
@@ -133,7 +133,7 @@ nav a i {
 }
 
 .section3 {
-  background-image: url(./assets/section-3.jpeg);
+  background-image: url('./assets/section-3.jpeg');
   height: 100vh;
   width: 100%;
   position: relative;
@@ -206,27 +206,27 @@ nav a i {
 }
 
 .grid1 {
-  background-image: url(./assets/grid1.jpg);
+  background-image: url('./assets/grid1.jpg');
 }
 
 .grid2 {
-  background-image: url(./assets/grid2.jpg);
+  background-image: url('./assets/grid2.jpg');
 }
 
 .grid3 {
-  background-image: url(./assets/grid3.jpg);
+  background-image: url('./assets/grid3.jpg');
 }
 
 .grid4 {
-  background-image: url(./assets/grid4.jpg);
+  background-image: url('./assets/grid4.jpg');
 }
 
 .grid5 {
-  background-image: url(./assets/grid5.jpeg);
+  background-image: url('./assets/grid5.jpeg');
 }
 
 .grid6 {
-  background-image: url(./assets/grid6.jpg);
+  background-image: url('./assets/grid6.jpg');
 }
 
 .grid2,
